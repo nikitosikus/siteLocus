@@ -111,6 +111,7 @@ form, label, input {
 		flex-direction: column;
 		align-items: center;
 		background: rgba(0, 0, 0, .7);
+		/*background: rgba(204, 240, 230, .3);*/
 		overflow: auto;
 		z-index: 100;
 	}
@@ -124,6 +125,17 @@ form, label, input {
 		padding: 15px;
 		font-size: 170%;
 		color: #58A9A5;
+		/*max-width: 750px;
+		width: 100%;*/
+		width: 200px;
+		height: 70px;
+		line-height: 70px;
+		border-radius: 20px;
+		text-transform: uppercase;
+		font-weight: 900;
+		background: rgba(0, 0, 0, .8);
+		display: block;
+		text-align: center;
 	}
 	#nav:not(:target) {
 		left: -100%;
@@ -598,6 +610,7 @@ form, label, input {
 @media only screen and (max-width: 900px) {
 	.box4_block2 {
 		min-height: 560px;
+		align-items: center;
 	}
 	.box4_block2_ {
 		min-height: 500px;
@@ -609,6 +622,9 @@ form, label, input {
 	}
 	.box4_block2_ {
 		min-height: 430px;
+	}
+	.box4_block2_:nth-child(2) {
+	    align-self: center;
 	}
 }
 @media only screen and (max-width: 660px) {
@@ -850,4 +866,19 @@ form, label, input {
 	.box6_block2_cont2::after {
 		top: 290px;
 	}
+}
+/*footer*/
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1450px;
+	width: 100%;
+	margin-bottom: 300px;
+}
+.footer_ {
+	display: flex;
+	justify-content: ;
+	max-width: 1250px;
+	width: 95%;
 }
